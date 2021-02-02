@@ -1,0 +1,86 @@
+#index,#image {
+
+  margin-top: 10%;
+  width: 50%;
+  padding: 10%;
+}
+
+#advanced {
+
+  margin-top: 1%;
+  padding: 2%;
+}
+
+#search {
+    width:370px;"
+}
+
+#AdvancedSearch {
+    width:500px;"
+}
+
+#ButtonIndex,#ButtonImage {
+    background-color: rgb(250, 250, 250);
+    color:black;
+    border: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+#ButtonAdvanced {
+  background-color: #4d90fe;
+  color:white;
+  border: white;
+  margin-top: 20px;
+  margin-left:378px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#Title {
+  color: #d93025;
+  font-family: arial,sans-serif;
+  font-size: 20px;
+
+}
+#Subtitle{
+  color: black;
+  font-family: arial,sans-serif;
+  font-size: 16px;
+
+}
+
+.horizontal {
+
+    text-align:center;
+    font-family:arial,sans-serif;
+    font-size: 14px;
+
+      }
+
+.left {
+
+    text-align:left;
+    font-family:arial,sans-serif;
+    font-size: 14px;
+    
+      }
+
+#Link {
+  text-align: right;
+}
+
+
+#font1{
+  font-size: 13px;
+
+}
+
+
+#AdvancedSearch{
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left:10px;
+
+}

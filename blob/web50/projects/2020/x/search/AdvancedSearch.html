@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <title>Search</title>
+    </head>
+    <body>
+
+        <div id="Link">
+            <a href="index.html">Google Search</a>&nbsp;
+        </div>
+
+        <div class="container" id="advanced">
+            <div class="row">
+
+        <div id="Title">Advanced Search</div><br><br><br>
+        <div id="Subtitle">Looking for sites that ... </div><br><br>
+
+        <form action="https://google.com/search" id="form">
+            <div class="mb-3">
+            <table>
+                
+                <tr>
+                    <td id="font1"><label for="AdvancedSearch">contain all of these words:</label></td>
+                    <td><input type="text" name="as_q" class="form-control" id="AdvancedSearch"></td> 
+                </tr>      
+
+
+                <tr>
+                    <td id="font1"><label for="AdvancedSearch">contain exactly this word or phrase:</label></td>
+                    <td><input type="text" name="as_epq" class="form-control" id="AdvancedSearch"></td>
+
+                </tr>
+
+
+                <tr>
+                    <td id="font1"><label for="AdvancedSearch">contain any of these words:</label></td>
+                    <td><input type="text" name="as_oq" class="form-control" id="AdvancedSearch"></td>
+
+                </tr>
+
+                <tr>
+                    <td id="font1"><label for="AdvancedSearch">do not contain any of the following words:</label></td>
+                    <td><input type="text" name="as_eq" class="form-control" id="AdvancedSearch"></td>
+
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td><button type="submit" id="ButtonAdvanced" class="btn btn-primary">Advanced Search</button></td>
+
+                </tr>
+
+
+            </table>
+
+          
+            </div>
+
+        </form>
+
+            </div>
+
+        </div>
+       
+
+    </body>
+</html>
